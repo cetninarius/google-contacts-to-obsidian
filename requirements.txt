@@ -1,0 +1,9 @@
+Jinja2~=3.1.2
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-core
+googleapis-common-protos
+requests-oauthlib
+oauthlib

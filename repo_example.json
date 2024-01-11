@@ -1,0 +1,148 @@
+{
+  "resourceName": "people/<id_number>",
+  "etag": "%<tag>=",
+  "names": [
+    {
+      "metadata": {
+        "primary": true,
+        "source": {
+          "type": "PROFILE",
+          "id": "<id>"
+        },
+        "sourcePrimary": true
+      },
+      "displayName": "Radomir Perisic",
+      "familyName": "Perisic",
+      "givenName": "Radomir",
+      "displayNameLastFirst": "Perisic, Radomir",
+      "unstructuredName": "Radomir Perisic"
+    }
+  ],
+  "birthdays": [
+    {
+      "metadata": {
+        "source": {
+          "type": "ACCOUNT",
+          "id": "<id>"
+        }
+      },
+      "date": {
+        "year": 2003,
+        "month": 4,
+        "day": 4
+      }
+    }
+  ],
+  "addresses": [
+    {
+      "metadata": {
+        "source": {
+          "type": "CONTACT",
+          "id": "<id>"
+        }
+      },
+      "formattedValue": "Address line, postal code,  city, country",
+      "streetAddress": "Address line",
+      "extendedAddress": "Address line",
+      "city": "Belgrade",
+      "postalCode": "11000",
+      "country": "Serbia",
+      "countryCode": "RS"
+    }
+  ],
+  "emailAddresses": [
+    {
+      "metadata": {
+        "source": {
+          "type": "CONTACT",
+          "id": "<id>"
+        },
+        "sourcePrimary": true
+      },
+      "value": "radomirraca2003@gmail.com"
+    },
+    {
+      "metadata": {
+        "source": {
+          "type": "CONTACT",
+          "id": "<id>"
+        }
+      },
+      "value": "work.email@gmail.com",
+      "type": "Work",
+      "formattedType": "Work"
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "metadata": {
+        "primary": true,
+        "source": {
+          "type": "CONTACT",
+          "id": "<id>"
+        },
+        "sourcePrimary": true
+      },
+      "value": "<phone number>",
+      "canonicalForm": "+phonenumber",
+      "type": "mobile",
+      "formattedType": "Mobile"
+    }
+  ],
+  "biographies": [
+    {
+      "metadata": {
+        "primary": true,
+        "source": {
+          "type": "CONTACT",
+          "id": "<id>"
+        }
+      },
+      "value": "Notes section",
+      "contentType": "TEXT_PLAIN"
+    }
+  ],
+  "organizations": [
+    {
+      "metadata": {
+        "source": {
+          "type": "CONTACT",
+          "id": "<id>"
+        }
+      },
+      "name": "Name",
+      "title": "Title"
+    }
+  ],
+  "events": [
+    {
+      "metadata": {
+        "primary": true,
+        "source": {
+          "type": "CONTACT",
+          "id": "<id>"
+        }
+      },
+      "date": {
+        "month": 12,
+        "day": 9
+      },
+      "type": "Event name",
+      "formattedType": "Event name"
+    }
+  ],
+  "relations": [
+    {
+      "metadata": {
+        "primary": true,
+        "source": {
+          "type": "CONTACT",
+          "id": "<id>"
+        }
+      },
+      "person": "Connected person name",
+      "type": "Connection type",
+      "formattedType": "Connection type"
+    }
+  ]
+}
