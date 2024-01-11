@@ -41,9 +41,9 @@ After the download is finished all your contact files will be located in the **/
 
 #### Images
 
-![Graph view 1](https://ibb.co/K9NVhWt)
+![Graph view 1](https://i.ibb.co/hKX29VG/graph-View1.png)
 
-![Graph view 2](https://ibb.co/8YW73ZJ)
+![Graph view 2](https://i.ibb.co/FHSDvT9/graph-View2.png)
 
 
 ## .md Template
